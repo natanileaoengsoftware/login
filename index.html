@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Modal</title>
+</head>
+<body> 
+  <nav>
+    <ul>
+      <li class="login">
+        <a data-modal="abrir" href="login.html">Login￫</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="modal-container" data-modal="container">
+<div class="modal">
+<button data-modal="fechar" class="fechar">x</button>
+<form action="">
+  <label for="email">Email</label>
+  <input type="text" for="email" id="email">
+  <label for="senha">Senha</label>
+  <input type="password" for="senha" id="senha">
+  <button type="submit">Entrar</button>
+</form>
+</div>
+  </section>
+  <script type="module" src="/js.js"></script>
+</body>
+</html> 
